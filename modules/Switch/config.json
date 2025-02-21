@@ -1,0 +1,29 @@
+{
+    "KEITHLEY INSTRUMENTS INC.,MODEL 2750": {
+        "multiLineRead": false,
+        "readMode": "CONFigure?",
+        "mode": {
+            "voltDC": "VOLT:DC",
+            "voltAC": "VOLT:AC",
+            "currentDC": "CURR:DC",
+            "currentAC": "CURR:AC",
+            "resistance": "RES",
+            "continuity": "CONT"
+        },
+        "setMode": {
+            "voltDC": "CONFigure:VOLTage:DC",
+            "voltAC": "CONFigure:VOLTage:AC",
+            "currentDC": "CONFigure:CURRent:DC",
+            "currentAC": "CONFigure:CURRent:AC",
+            "resistance": "CONFigure:RESistance",
+            "continuity": "CONFigure:CONTinuity"
+        },
+        "closePortOne": "ROUTe:CLOSe (@<slot><channel>)",
+        "openPortAll": "ROUTe:OPEN:ALL",
+        "readPortOne": "ROUTe:CLOSe:STATe? (@<slot><channel>)",
+        "readValue": "READ?",
+        "setReset": "*RST",
+        "setFormat": "FORMat:ELEMents READing",
+        "setLocal": "SYSTem:LOCal"
+    }
+}
