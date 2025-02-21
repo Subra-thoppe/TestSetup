@@ -1,0 +1,97 @@
+{
+    "FLUKE, 8808A": {
+        "multiLineRead": true,
+        "readMode": "FUNC1?",
+        "mode": {
+            "voltDC": "VDC",
+            "voltAC": "VAC",
+            "currentDC": "ADC",
+            "currentAC": "AAC",
+            "resistance": "OHMS",
+            "continuity": "CONT"
+        },
+        "setMode": {
+            "voltDC": "VDC",
+            "voltAC": "VAC",
+            "currentDC": "ADC",
+            "currentAC": "AAC",
+            "resistance": "OHMS",
+            "continuity": "CONT"
+        },
+        "readValue": "VAL1?",
+        "setReset": "*RST",
+        "setRemote": "REMS",
+        "setFormat": "FORMAT 1",
+        "setLocal": "LOCS"
+    },
+    "FLUKE, 45": {
+        "multiLineRead": true,
+        "readMode": "FUNC1?",
+        "mode": {
+            "voltDC": "VDC",
+            "voltAC": "VAC",
+            "currentDC": "ADC",
+            "currentAC": "AAC",
+            "resistance": "OHMS",
+            "continuity": "CONT"
+        },
+        "setMode": {
+            "voltDC": "VDC",
+            "voltAC": "VAC",
+            "currentDC": "ADC",
+            "currentAC": "AAC",
+            "resistance": "OHMS",
+            "continuity": "CONT"
+        },
+        "readValue": "VAL1?",
+        "setRemote": "REMS",
+        "setLocal": "LOCS"
+    },
+    "Agilent Technologies,34410A": {
+        "multiLineRead": false,
+        "readMode": "CONFigure?",
+        "mode": {
+            "voltDC": "VOLT",
+            "voltAC": "VOLT:AC",
+            "currentDC": "CURR",
+            "currentAC": "CURR:AC",
+            "resistance": "RES",
+            "continuity": "CONT"
+        },
+        "setMode": {
+            "voltDC": "CONFigure:VOLTage:DC",
+            "voltAC": "CONFigure:VOLTage:AC",
+            "currentDC": "CONFigure:CURRent:DC",
+            "currentAC": "CONFigure:CURRent:AC",
+            "resistance": "CONFigure:RESistance",
+            "continuity": "CONFigure:CONTinuity"
+        },
+        "readValue": "READ?",
+        "setReset": "*RST",
+        "setLocal": ""
+    },
+    "HEWLETT-PACKARD,34401A": {
+        "multiLineRead": false,
+        "readMode": "CONFigure?",
+        "mode": {
+            "voltDC": "VOLT",
+            "voltAC": "VOLT:AC",
+            "currentDC": "CURR",
+            "currentAC": "CURR:AC",
+            "resistance": "RES",
+            "continuity": "CONT"
+        },
+        "setMode": {
+            "voltDC": "CONFigure:VOLTage:DC",
+            "voltAC": "CONFigure:VOLTage:AC",
+            "currentDC": "CONFigure:CURRent:DC",
+            "currentAC": "CONFigure:CURRent:AC",
+            "resistance": "CONFigure:RESistance",
+            "continuity": "CONFigure:CONTinuity"
+        },
+        "readValue": "READ?",
+        "setReset": "*RST",
+        "setRemote": "SYSTem:REMote",
+        "setLocal": "SYSTem:LOCal"
+    }
+}

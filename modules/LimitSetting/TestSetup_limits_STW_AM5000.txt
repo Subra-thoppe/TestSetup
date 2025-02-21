@@ -1,0 +1,6 @@
+parameter	lowlimit	upperlimit
+current(mA)	3.92	4.08
+InsulationResistance(Mohm)	2000	5000
+Offset(PADC)	-3000000	3000000
+Temperature(TADC)	-3000000	3000000
+Offsetinner(PADC)	500	500

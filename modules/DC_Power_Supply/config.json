@@ -1,0 +1,214 @@
+{
+    "THURLBY THANDAR, QL355TP": {
+        "multiLineRead": false,
+        "setVoltage": {
+            "channels": {
+                "1": {
+                    "minVoltage": 0.0,
+                    "maxVoltage": 35.0
+                },
+                "2": {
+                    "minVoltage": 0.0,
+                    "maxVoltage": 35.0
+                },
+                "3": {
+                    "minVoltage": 1.0,
+                    "maxVoltage": 6.0
+                }
+            },
+            "command": "V<channel> <volt>"
+        },
+        "setCurrent": {
+            "channels": {
+                "1": {
+                    "minCurrent": 0.0,
+                    "maxCurrent": 3.0
+                },
+                "2": {
+                    "minCurrent": 0.0,
+                    "maxCurrent": 0.5
+                },
+                "3": {
+                    "minCurrent": 0.0,
+                    "maxCurrent": 3.0
+                }
+            },
+            "command": "I<channel> <current>"
+        },
+        "setState": {
+            "channels": {
+                "1": {
+                    "0": 0,
+                    "1": 1
+                },
+                "2": {
+                    "0": 0,
+                    "1": 1
+                },
+                "3": {
+                    "0": 0,
+                    "1": 1
+                }
+            },
+            "command": "OP<channel> <state>"
+        },
+        "readVoltage": {
+            "channels": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command": "V<channel>O?"
+        },
+        "readCurrent": {
+            "channels": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command": "I<channel>O?"
+        },
+        "readState": {
+            "channels": [
+                "1",
+                "2",
+                "3"
+            ],
+            "command": "OP<channel>?"
+        },
+        "setLocal": "LOCAL"
+    },
+    "GW Instek,GPP-4323": {
+        "multiLineRead": false,
+        "setVoltage": {
+            "channels": {
+                "1": {
+                    "minVoltage": 0.0,
+                    "maxVoltage": 32.0
+                },
+                "2": {
+                    "minVoltage": 0.0,
+                    "maxVoltage": 32.0
+                },
+                "3": {
+                    "minVoltage": 0.0,
+                    "maxVoltage": 5.0
+                },
+                "4": {
+                    "minVoltage": 0.0,
+                    "maxVoltage": 15.0
+                }
+            },
+            "command": "VSET<channel>:<volt>"
+        },
+        "setCurrent": {
+            "channels": {
+                "1": {
+                    "minCurrent": 0.0,
+                    "maxCurrent": 3.0
+                },
+                "2": {
+                    "minCurrent": 0.0,
+                    "maxCurrent": 3.0
+                },
+                "3": {
+                    "minCurrent": 0.0,
+                    "maxCurrent": 1.0
+                },
+                "4": {
+                    "minCurrent": 0.0,
+                    "maxCurrent": 1.0
+                }
+            },
+            "command": "ISET<channel>:<current>"
+        },
+        "setState": {
+            "channels": {
+                "1": {
+                    "0": 0,
+                    "1": 1
+                },
+                "2": {
+                    "0": 0,
+                    "1": 1
+                },
+                "3": {
+                    "0": 0,
+                    "1": 1
+                },
+                "4": {
+                    "0": 0,
+                    "1": 1
+                }
+            },
+            "command": ":OUTPut<channel>:STATe <state>"
+        },
+        "readVoltage": {
+            "channels": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "command": "MEASure<channel>:VOLTage?"
+        },
+        "readCurrent": {
+            "channels": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "command": "MEASure<channel>:CURRent?"
+        },
+        "readState": {
+            "channels": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "command": ":OUTPut<channel>:STATe?"
+        },
+        "setLocal": "LOCAL"
+    },
+
+    "HEWLETT-PACKARD,E3631A": {
+            "multiLineRead": false,
+            "setVoltage": {
+                "channels": {
+                    "1": {
+                        "minVoltage": 0.0,
+                        "maxVoltage": 25.0
+                    },
+                    "2": {
+                        "minVoltage": 0.0,
+                        "maxVoltage": 25.0
+                    },
+                    "3": {
+                        "minVoltage": 0.0,
+                        "maxVoltage": 6.0
+                    }
+                },
+                "command": "V<channel> <volt>"
+            },
+            "setState": {
+                "channels": {
+                    "1": {
+                        "0": "OFF",
+                        "1": "ON"
+                    },
+                    "2": {
+                        "0": "OFF",
+                        "1": "ON"
+                    },
+                    "3": {
+                        "0": "OFF",
+                        "1": "ON"
+                    }
+                },
+                "command": ":INST:NSEL <channel>; :OUTPut:STATe <state>"
+            },
+            "setLocal": ""
+        }
+}
